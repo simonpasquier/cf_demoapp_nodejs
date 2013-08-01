@@ -1,0 +1,10 @@
+---
+applications:
+- name: hello
+  memory: 256M
+  instances: 1
+  host: none
+  domain: none
+  path: .
+  command: node hello.js
+
